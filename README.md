@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ProCleaning - Modern Cleaning Services Platform
 
-## Getting Started
+ProCleaning is a premium, high-performance website built with Next.js (App Router, Turbopack) featuring a stunning, responsive, and animated user interface for a professional cleaning services company.
 
-First, run the development server:
+## ✨ Premium Features & Animations
+
+The platform is enhanced with state-of-the-art animations designed for a modern user experience:
+
+- **🚀 GSAP Hero Entrance**: Dramatic slide-in, text-clip reveals, and button spring transitions on page load.
+- **✨ Magic Bento Spotlight**: High-fidelity, real-time mouse-tracking green neon border glows on pricing cards.
+- **🧊 Sticky Glassmorphism Header**: Navigation transitions into a frosted glass container with smooth backdrop blurs and floating indicators upon scrolling.
+- **📜 Viewport Reveal Hook**: Reusable Intersection Observer animation hook `useScrollAnimation` providing smooth scroll-triggered fades, horizontal slide-ins, and scales.
+- **🎨 Modern Micro-interactions**: Smooth button scales, card hover-lifts, image zooms, and bouncing icons.
+
+## 🛠️ Tech Stack
+
+- **Core**: Next.js 16 (React 19, Turbopack)
+- **Styling**: PostCSS & TailwindCSS 4
+- **Animations**: GSAP (GreenSock), Custom CSS Keyframes, & Webkit Mask Compositing
+- **Icons**: Lucide React
+- **Swiper Carousel**: Swiper.js
+
+## 🚀 Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build the application for production:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To run the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run start
+```
